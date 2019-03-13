@@ -1,0 +1,14 @@
+Transformando de json a xml
+
+json:
+
+Vehiculo{Moto{placa=345rft, marca=yamaha, valor=7.0, numeroEje=0}}
+
+xml:
+
+<Vehiculo>
+  <moto>
+    <placa>345rft</placa> <marca>yamaha</marca> <valor>7.0</valor> <numeroEje>0</numeroEje>
+  </moto>
+</Vehiculo>
+
